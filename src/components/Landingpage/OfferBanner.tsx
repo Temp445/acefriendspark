@@ -35,7 +35,7 @@ const OfferBanner = () => {
         </div>
 
         <div className="flex-shrink-0 mt-4 md:mt-0">
-          <Link href='/contact' className="bg-[#D46A37] hover:bg-[#C55A27] text-white px-12 py-4 font-semibold tracking-widest uppercase text-sm transition-all duration-300 hover:shadow-xl hover:scale-105">
+          <Link href='/contact' className="bg-[#D46A37] hover:bg-[#C55A27] rounded text-white px-12 py-4 font-semibold tracking-widest uppercase text-sm transition-all duration-300 hover:shadow-xl hover:scale-105">
             Book Your Stay
           </Link>
         </div>

@@ -121,7 +121,7 @@ const EntertainmentSection = () => {
             onMouseLeave={() => setIsPaused(false)}
           >
             <motion.div
-              className="flex gap-4"
+              className="flex 2xl:gap-3"
               animate={{ x: `-${currentIndex * (100 / cardsPerView)}%` }}
               transition={{ type: 'spring', stiffness: 300, damping: 30 }}
             >
@@ -131,14 +131,14 @@ const EntertainmentSection = () => {
                   className="relative overflow-hidden rounded-3xl shadow-xl flex-shrink-0 cursor-pointer group"
                   style={{
                     width: `calc(${100 / cardsPerView}% - ${(cardsPerView - 1) * 16 / cardsPerView}px)`,
-                    height: '400px',
+                    height: '350px',
                   }}
                   whileHover={{ y: -6 }}
                 >
                   <img
                     src={gallery.image}
                     alt={gallery.name}
-                    className="object-cover w-full h-full transition-transform duration-700 group-hover:scale-105"
+                    className="object-center w-full h-full transition-transform"
                     width={400}
                     height={400}
                   />

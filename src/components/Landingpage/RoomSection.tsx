@@ -104,7 +104,7 @@ const RoomSection = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
             variants={fadeInUp}
-            className="bg-gray-50 p-8 flex flex-col justify-center items-center text-center"
+            className="bg-gray-50 md:p-8 flex flex-col justify-center items-center text-center"
           >
             <h2 className="text-3xl sm:text-5xl font-serif mb-6 text-gray-800">{rooms[0].title}</h2>
             <p className="text-gray-500 mb-8 max-w-md leading-relaxed">
