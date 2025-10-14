@@ -90,7 +90,7 @@ const Navbar = () => {
           isScrolled ? 'fixed top-0 bg-white shadow-lg' : 'lg:relative bg-white'
         }`}
       >
-        <div className="container mx-auto flex justify-between items-center px-6 xl:px-10 2xl:px-16 py-2">
+        <div className="container mx-auto flex justify-between items-center px-6 lg:px-5 xl:px-10 2xl:px-16 py-2">
           <Link href="/" className={`flex items-center gap-2 font-bold tracking-wide`}>
             <Image src={Logo} alt="Logo" className="w-8 h-auto" />
             <div className="leading-none">
@@ -98,7 +98,7 @@ const Navbar = () => {
             </div>
           </Link>
 
-          <div className="hidden lg:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-5 xl:gap-7">
             {navigation.map((link) => (
               <button
                 key={link.label}
