@@ -92,7 +92,7 @@ const AttractionsDashboard = () => {
                 Start by adding your first attraction to showcase amazing destinations!
               </p>
               <button
-                onClick={() => router.push('/(admin)/add-attraction')}
+                onClick={() => router.push('/admin/attractionsdashboard/add-attraction')}
                 className="bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition-all duration-300 shadow-lg inline-flex items-center gap-2"
               >
                 <Plus className="w-5 h-5" />
