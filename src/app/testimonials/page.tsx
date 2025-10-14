@@ -1,4 +1,3 @@
-import TestimonialsSection from '@/components/TestimonialsPage/TestimonialsSection'
 import React from 'react'
 import type { Metadata } from 'next';
 import HeroSection from '@/components/TestimonialsPage/HeroSection';

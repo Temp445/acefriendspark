@@ -2,10 +2,10 @@ import React from 'react';
 
 const TestimonialsCTA = () => {
   return (
-    <div className="relative container mx-auto mb-20 max-w-7xl rounded-3xl overflow-hidden">
+    <div className="px-2">
+         <div className="relative container mx-auto mb-20 max-w-7xl rounded-3xl overflow-hidden">
       <div 
-        className="relative z-10 text-center p-12 md:p-16 text-white"
-        style={{ background: 'linear-gradient(135deg, #D46A37 0%, #B85530 100%)' }}
+        className="relative z-10 text-center p-10 md:p-16 text-white bg-gradient-to-bl from-[#d45c37] to-[#D46A36] "
       >
         <div className="absolute inset-0 opacity-10">
           <div className="absolute -top-10 -left-10 w-32 h-32 bg-white rounded-full"></div>
@@ -16,7 +16,7 @@ const TestimonialsCTA = () => {
           <h3 className="text-3xl md:text-4xl font-serif font-semibold mb-4">
             Ready to Create Your Own Story?
           </h3>
-          <p className="text-lg md:text-xl mb-8 text-white/90">
+          <p className="text-base md:text-xl mb-8 text-white/90">
             Join our community of satisfied guests and experience the hospitality that keeps them coming back
           </p>
           <a 
@@ -28,6 +28,8 @@ const TestimonialsCTA = () => {
         </div>
       </div>
     </div>
+    </div>
+ 
   );
 };
 

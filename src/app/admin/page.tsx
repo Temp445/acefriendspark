@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 import { PencilLine, Trash2} from "lucide-react";
-// import Sidebar from "@/components/Sidebar"; 
 
 interface Product {
   _id: string;
@@ -51,7 +50,6 @@ const Admin = () => {
 
   return (
     <div className="flex min-h-screen">
-      {/* <Sidebar /> */}
       <main className="flex-1 bg-gradient-to-br from-slate-50 via-indigo-50 to-orange-100">
         <div className="px-2 lg:px-5 py-16 container mx-auto">
           <div className="flex justify-between items-center mb-12">

@@ -16,7 +16,6 @@ const TestimonialUpdatePage: React.FC = () => {
   const [preview, setPreview] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  // Fetch existing testimonial
   useEffect(() => {
     const fetchTestimonial = async () => {
       try {
@@ -40,7 +39,6 @@ const TestimonialUpdatePage: React.FC = () => {
     fetchTestimonial();
   }, [id]);
 
-  // Handle image selection
   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0] || null;
     setImage(file);
@@ -51,7 +49,6 @@ const TestimonialUpdatePage: React.FC = () => {
     }
   };
 
-  // Submit updates
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
@@ -98,7 +95,6 @@ const TestimonialUpdatePage: React.FC = () => {
           </h1>
 
           <form onSubmit={handleSubmit} className="space-y-6">
-            {/* Platform */}
             <div>
               <label className="block text-black font-semibold mb-2 text-sm uppercase tracking-wide">
                 Platform
@@ -112,7 +108,6 @@ const TestimonialUpdatePage: React.FC = () => {
               </input>
             </div>
 
-            {/* Username */}
             <div>
               <label className="block text-black font-semibold mb-2 text-sm uppercase tracking-wide">
                 Username
@@ -127,7 +122,6 @@ const TestimonialUpdatePage: React.FC = () => {
               />
             </div>
 
-            {/* Review */}
             <div>
               <label className="block text-black font-semibold mb-2 text-sm uppercase tracking-wide">
                 Review
@@ -142,7 +136,6 @@ const TestimonialUpdatePage: React.FC = () => {
               ></textarea>
             </div>
 
-            {/* Rating */}
             <div>
               <label className="block text-black font-semibold mb-2 text-sm uppercase tracking-wide">
                 Rating (0-5)
@@ -159,7 +152,6 @@ const TestimonialUpdatePage: React.FC = () => {
               />
             </div>
 
-            {/* Date */}
             <div>
               <label className="block text-black font-semibold mb-2 text-sm uppercase tracking-wide">
                 Date
@@ -173,7 +165,6 @@ const TestimonialUpdatePage: React.FC = () => {
               />
             </div>
 
-            {/* Image */}
             <div>
               <label className="block text-black font-semibold mb-2 text-sm uppercase tracking-wide">
                 Image (optional)
@@ -191,7 +182,6 @@ const TestimonialUpdatePage: React.FC = () => {
               )}
             </div>
 
-            {/* Submit Button */}
             <button
               type="submit"
               disabled={loading}

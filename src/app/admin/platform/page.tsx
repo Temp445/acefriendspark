@@ -70,9 +70,9 @@ const TestimonialPlatformDashboard = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto pt-5">
         <div className="mb-12 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-          <h1 className="text-2xl md:text-4xl font-bold text-gray-900">Testimonial Platforms</h1>
+          <h1 className="text-2xl md:text-4xl  text-gray-900">Testimonial Platforms</h1>
           <button
             onClick={() => router.push('/admin/platform/upload')}
             className="bg-[#D46A37] text-white px-6 py-3 rounded hover:bg-emerald-600 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2 font-medium"

@@ -99,7 +99,7 @@ const GalleryUpdatePage: React.FC<GalleryUpdateProps> = ({ params }) => {
   if (fetchLoading) {
     return (
       <div className="min-h-screen bg-white flex items-center justify-center">
-        <div className="text-black text-xl font-semibold">Loading gallery data...</div>
+        <div className="text-black text-xl font-semibold">Loading...</div>
       </div>
     );
   }

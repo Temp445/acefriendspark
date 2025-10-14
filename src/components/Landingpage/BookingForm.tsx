@@ -43,7 +43,7 @@ const BookingForm = () => {
 
   const handleGuestsChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const guestCount = parseInt(e.target.value) || 1;
-    const maxGuestsPerCottage = 8;
+    const maxGuestsPerCottage = 6;
     const requiredCottages = Math.ceil(guestCount / maxGuestsPerCottage);
     const maxCottages = 12;
     
@@ -168,7 +168,7 @@ const BookingForm = () => {
 
   return (
     <div className='px-2'>
-      <div className="md:max-w-lg mx-auto bg-white p-4 lg:p-5 border lg:border-0 rounded shadow-md mt-10">
+      <div className="md:max-w-lg mx-auto bg-white p-4 lg:py-6 lg:px-5 border lg:border-0 rounded shadow-md mt-10">
         <div className="text-3xl font-serif mb-8 text-center">
           Book Your <span className="text-[#D46A37]"> Stay</span>
         </div>
@@ -247,7 +247,7 @@ const BookingForm = () => {
                 className="mt-1 w-full border rounded-md px-3 py-2 focus:outline-none"
               />
               <p className="text-xs text-gray-500 mt-1">
-                Our cottages accommodate up to 6 guests, with 2 extra guests allowed at an additional cost
+               Each cottage comfortably accommodates up to 6 guests.
               </p>
             </div>
 

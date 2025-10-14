@@ -7,7 +7,6 @@ import {
   Sparkles,
   Mountain,
   Users,
-  Music,
   Utensils,
   ShowerHead,
   TvMinimal,
@@ -79,7 +78,7 @@ const RoomDetails = () => {
     setCurrentHall((prev) => (prev === 0 ? hallImages.length - 1 : prev - 1));
 
   const roomFeatures = [
-    { icon: Users, text: "Capacity: 6 guests per cottage. Up to 2 extra guests can be added on request for an additional cost." },
+    { icon: Users, text: "Each cottage comfortably accommodates up to 6 guests." },
     { icon: Mountain, text: "Scenic Valley View" },
     { icon: Bed, text: "Bedroom 1 - Comfortable King-size Bed" },
     { icon: Bed, text: "Bedroom 2 – Two Cozy Medium-size Beds" },
@@ -100,8 +99,7 @@ const RoomDetails = () => {
   ];
 
   const partyHallFeatures = [
-    { icon: Users, text: "Capacity: 250–300 Guests (Up to 500 Flowable)" },
-    { icon: Music, text: "Premium Sound System" },
+    { icon: Users, text: "Capacity: 250–300 guests seated (up to 450 for open-floor events)" },
     { icon: Wifi, text: "Conference & Event Facilities" },
     { icon: UtensilsCrossed, text: "Food & Catering Provided Based on Guest Request" },
   ];
@@ -228,7 +226,7 @@ const RoomDetails = () => {
                 {partyHallFeatures.map((feature, index) => {
                   const Icon = feature.icon;
                   return (
-                    <div key={index} className="flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group">
+                    <div key={index} className={`flex items-center gap-3 p-3 rounded-xl hover:bg-slate-50 transition-colors group ${index === 0 ? 'sm:col-span-2' : ''}`}>
                       <div className="flex-shrink-0 w-10 h-10 rounded-full bg-[#D46A37]/10 flex items-center justify-center transition-colors">
                         <Icon className="w-5 h-5 text-[#D46A37]" />
                       </div>

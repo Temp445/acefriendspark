@@ -6,7 +6,7 @@ import { NextResponse } from "next/server";
 export async function GET() {
   try {
     await Mongoose();
-    const testimonials = await Testimonial.find();
+    const testimonials = await Testimonial.find().sort({ createdAt: -1 });
     return NextResponse.json({ success: true, data: testimonials }, { status: 200 });
   } catch (err: any) {
     console.error("Testimonial Fetch Error:", err);

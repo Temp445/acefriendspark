@@ -18,7 +18,6 @@ const EntertainmentSection = () => {
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const carouselRef = useRef<HTMLDivElement | null>(null);
 
-  // Fetch galleries from API and filter for 'games' category
   const fetchGalleries = async () => {
     try {
       const res = await fetch('/api/gallery');
@@ -85,11 +84,11 @@ const EntertainmentSection = () => {
             Games & Laughs
           </span>
 
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif mb-4">
+          <h2 className="text-3xl md:text-5xl 2xl:text-6xl font-serif mb-4">
             Fun & <span className="text-[#D46A37]">Play Zone</span>
           </h2>
 
-          <p className="text-gray-600 text-base md:text-lg mt-4 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-gray-600 text-base 2xl:text-lg mt-4 max-w-3xl mx-auto leading-relaxed">
             Unwind and enjoy! Our hotel offers a variety of indoor games and activities to keep every guest entertained.
           </p>
         </motion.div>

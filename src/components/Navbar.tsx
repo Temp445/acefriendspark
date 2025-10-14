@@ -69,7 +69,7 @@ const Navbar = () => {
   return (
     <>
       <div className="hidden lg:block bg-[#D46A37]/80 text-white">
-        <div className="container mx-auto px-6 xl:px-20 py-2.5 flex justify-between items-center text-sm">
+        <div className="container mx-auto px-6 2xl:px-20 py-2.5 flex justify-between items-center text-sm">
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-white" />
@@ -90,7 +90,7 @@ const Navbar = () => {
           isScrolled ? 'fixed top-0 bg-white shadow-lg' : 'lg:relative bg-white'
         }`}
       >
-        <div className="container mx-auto flex justify-between items-center px-6 xl:px-16 py-2">
+        <div className="container mx-auto flex justify-between items-center px-6 xl:px-10 2xl:px-16 py-2">
           <Link href="/" className={`flex items-center gap-2 font-bold tracking-wide`}>
             <Image src={Logo} alt="Logo" className="w-8 h-auto" />
             <div className="leading-none">
@@ -115,7 +115,7 @@ const Navbar = () => {
               <button
                 className={`px-4 py-2.5 rounded hidden xl:flex text-sm font-semibold transition-all duration-300 ${
                   isScrolled
-                    ? 'bg-[#D46A37] text-white hover:bg-amber-700 shadow-md hover:shadow-lg'
+                    ? 'bg-[#D46A37] text-white shadow-md hover:shadow-lg'
                     : 'bg-gray-900 text-white hover:bg-[#D46A37] shadow-md hover:shadow-lg'
                 }`}
               >
@@ -135,7 +135,6 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         <div
           className={`lg:hidden bg-white shadow-lg overflow-hidden transition-all duration-300 ${
             isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0'
@@ -155,7 +154,7 @@ const Navbar = () => {
               </button>
             ))}
             <Link href="/contact" onClick={() => setIsMenuOpen(false)}>
-              <button className="w-full bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-all duration-300 mt-2">
+              <button className="w-full bg-[#D46A37] text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-all duration-300 mt-2">
                 Book Stay
               </button>
             </Link>

@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from '@/assets/NearBy/img5.png'
+import bg from '@/assets/Hotel/Bg.png'
 import Image from 'next/image';
 const HeroSection = () => (
   <div className="relative h-screen max-h-[400px] overflow-hidden">

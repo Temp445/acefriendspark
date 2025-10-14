@@ -32,9 +32,8 @@ const ContactInfoSection = () => {
               Phone <span className="text-[#D46A37]">Number</span>
             </h3>
             <div className="text-slate-600 space-y-1 font-medium">
-              <a href="tel:+919710946813 hover:text-[#D46A37]">+91 9710946813</a> / {" "}
-              <a href="tel:+919710946816 hover:text-[#D46A37]">+91 9710946816</a>
-              
+              <a href="tel:+919710946813" className='hover:text-[#D46A37]'>+91 9710946813</a> / {" "}
+              <a href="tel:+919710946816" className='hover:text-[#D46A37]'>+91 9710946816</a>              
             </div>
           </div>
         </div>
@@ -51,8 +50,9 @@ const ContactInfoSection = () => {
             </h3>
             <div className="text-slate-600 space-y-1">
               <a href="mailto:info@acefriendspark.com" className='underline underline-offset-1 hover:text-[#D46A37]'>info@acefriendspark.com</a> <br />
-              <a href="mailto:marketing@acefriendspark.com" className='underline underline-offset-1 hover:text-[#D46A37]'>marketing@acefriendspark.com</a> <br />
-              <a href="mailto:sales@acefriendspark.com" className='underline underline-offset-1 hover:text-[#D46A37]'>sales@acefriendspark.com</a>
+              <a href="mailto:sales@acefriendspark.com" className='underline underline-offset-1 hover:text-[#D46A37]'>sales@acefriendspark.com</a> <br />
+              <a href="mailto:marketing@acefriendspark.com" className='underline underline-offset-1 hover:text-[#D46A37]'>marketing@acefriendspark.com</a>
+
             </div>
           </div>
         </div>

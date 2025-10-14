@@ -42,7 +42,7 @@ const AmenitiesSection = () => {
               Our Amenities
             </span>
           </div>
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif text-gray-900 mb-6 tracking-tight">
+          <h2 className="text-3xl md:text-5xl 2xl:text-6xl font-serif text-gray-900 mb-6 tracking-tight">
             Facilities & <span className='text-[#D46A37]'>Amenities</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-transparent via-gray-900 to-transparent mx-auto mb-6"></div>

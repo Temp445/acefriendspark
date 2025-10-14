@@ -63,7 +63,7 @@ const RoomSection = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
           variants={fadeInUp}
-          className="text-3xl md:text-5xl xl:text-6xl font-serif text-center mb-5 md:mb-16 text-gray-800"
+          className="text-3xl md:text-5xl 2xl:text-6xl font-serif text-center mb-5 md:mb-16 text-gray-800"
         >
           Featured <span className='text-[#D46A37]'>Rooms</span>
         </motion.h3>

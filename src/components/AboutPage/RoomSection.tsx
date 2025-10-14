@@ -51,7 +51,7 @@ const RoomSection = () => {
           <p className="text-[#D46A37] font-semibold tracking-widest mb-4">
             Premium Amenities
           </p>
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif text-gray-900">
+          <h2 className="text-3xl md:text-5xl 2xl:text-6xl font-serif text-gray-900">
             Making You Feel at Home
           </h2>
         </div>

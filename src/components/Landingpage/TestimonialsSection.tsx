@@ -60,7 +60,7 @@ const TestimonialSection = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-10">
-          {testimonials.map((testimonial) => (
+          {testimonials.slice(0,3).map((testimonial) => (
             <div
               key={testimonial._id}
               className="relative bg-white rounded-xl border border-[#D46A37]/20 shadow-xl p-6 flex flex-col text-left transition-transform duration-500 hover:scale-105"

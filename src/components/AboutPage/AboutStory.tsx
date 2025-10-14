@@ -10,7 +10,7 @@ const AboutStory = () => {
       <div className="max-w-7xl mx-auto px-4 md:px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16">
           <div className="space-y-8">
-            <h2 className="text-3xl md:text-5xl lg:text-6xl leading-tight font-serif">
+            <h2 className="text-3xl md:text-5xl 2xl:text-6xl leading-tight font-serif">
               Our{" "}
               <span className="relative inline-block text-[#D46A37]">
                 Story

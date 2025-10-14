@@ -149,15 +149,30 @@ export default function Footer() {
                 </div>
               </li>
               <li className="flex items-center gap-3 group">
-                <div className="w-10 h-10 rounded-lg bg-slate-700 group-hover:bg-[#D46A37] flex items-center justify-center flex-shrink-0 transition-colors duration-300">
+                <div className="w-10 h-10 -mt-7 rounded-lg bg-slate-700 group-hover:bg-[#D46A37] flex items-center justify-center flex-shrink-0 transition-colors duration-300">
                   <Mail className="w-5 h-5" />
                 </div>
-                <a
+                <span className="flex flex-col pt-5" >
+                     <a
                   href="mailto:info@acefriendspark.com"
                   className="text-sm text-gray-400 hover:text-[#D46A37] transition-colors pt-2"
                 >
                   info@acefriendspark.com
                 </a>
+                  <a
+                  href="mailto:sales@acefriendspark.com"
+                  className="text-sm text-gray-400 hover:text-[#D46A37] transition-colors pt-2"
+                >
+                  sales@acefriendspark.com
+                </a>
+                   <a
+                  href="mailto:marketing@acefriendspark.com"
+                  className="text-sm text-gray-400 hover:text-[#D46A37] transition-colors pt-2"
+                >
+                  marketing@acefriendspark.com
+                </a>
+                </span>
+             
               </li>
             </ul>
           </div>

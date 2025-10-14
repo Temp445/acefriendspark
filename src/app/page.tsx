@@ -1,3 +1,4 @@
+import React from 'react'
 import AboutSection from '@/components/Landingpage/AboutSection'
 import AmenitiesSection from '@/components/Landingpage/AmenitiesSection'
 import EntertainmentSection from '@/components/Landingpage/EntertainmentSection'
@@ -7,7 +8,6 @@ import LocationSection from '@/components/Landingpage/LocationSection'
 import OfferBanner from '@/components/Landingpage/OfferBanner'
 import RoomsSection from '@/components/Landingpage/RoomSection'
 import TestimonialsSection from '@/components/Landingpage/TestimonialsSection'
-import React from 'react'
 import BookingForm from '@/components/Landingpage/BookingForm'
 
 const Home = () => {

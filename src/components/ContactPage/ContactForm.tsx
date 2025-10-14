@@ -43,7 +43,7 @@ const ContactForm = () => {
 
   const handleGuestsChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const guestCount = parseInt(e.target.value) || 1;
-    const maxGuestsPerCottage = 8;
+    const maxGuestsPerCottage = 6;
     const requiredCottages = Math.ceil(guestCount / maxGuestsPerCottage);
     const maxCottages = 12;
     
@@ -167,7 +167,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="bg-white border border-[#D46A37]/40 rounded-lg shadow-lg p-8 h-fit">
+    <div className="bg-white border border-[#D46A37]/40 rounded-lg shadow-lg p-4 md:p-8 h-fit">
       <h2 className="text-2xl md:text-3xl font-bold mb-6">Book Your Stay</h2>
 
       <form ref={form} onSubmit={handleSubmit} className="space-y-4">
@@ -228,7 +228,7 @@ const ContactForm = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid  md:grid-cols-2 gap-4">
           <div>
             <label className="block text-sm font-medium mb-2">Number of Guests *</label>
             <input
@@ -243,7 +243,7 @@ const ContactForm = () => {
               className="w-full px-4 py-2 border rounded-lg outline-none transition"
             />
             <p className="text-xs text-gray-500 mt-1">
-              Our cottages accommodate up to 6 guests, <br/> with 2 extra guests allowed at an additional cost
+              Each cottage comfortably accommodates <br className="hidden xl:block"/> up to 6 guests.
             </p>
           </div>
 

@@ -1,4 +1,3 @@
-import BookingForm from '@/components/RoomPage/BookingForm'
 import CTASection from '@/components/RoomPage/CTASection'
 import HeroSection from '@/components/RoomPage/HeroSection'
 import RoomDetails from '@/components/RoomPage/RoomDetails'

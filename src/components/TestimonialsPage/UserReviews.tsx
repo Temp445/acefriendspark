@@ -57,7 +57,7 @@ const UserReviews: React.FC = () => {
 
   return (
     <section className="container mx-auto mb-20 px-4 lg:px-14">
-      <h2 className="text-2xl md:text-4xl font-serif text-center text-gray-900 mb-8">
+      <h2 className="text-3xl md:text-4xl font-serif text-center text-gray-900 md:mb-8">
         Recent <span className="text-[#D46A37]">Guest Experiences</span>
       </h2>
 

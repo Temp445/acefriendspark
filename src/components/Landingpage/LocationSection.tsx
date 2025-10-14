@@ -19,7 +19,7 @@ const LocationSection = () => {
           viewport={{ once: true }}
         >
     
-          <h2 className="text-3xl md:text-5xl lg:text-6xl  font-serif text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-5xl 2xl:text-6xl  font-serif text-gray-900 mb-4">
             Our <span className='bg-[#D46A37] bg-clip-text text-transparent'>Location</span>
           </h2>
           <p className="text-gray-600 text-base md:text-lg mt-4 max-w-3xl mx-auto">
@@ -86,9 +86,10 @@ const LocationSection = () => {
                 </div>
                 <div className="flex-1">
                   <p className="text-xs font-bold text-[#D46A37] mb-1 uppercase tracking-wider">Phone</p>
-                  <p className="text-gray-700 font-semibold text-sm">
-                    +91 9710946813 / +91 9710946816
-                  </p>
+                 <div className="text-slate-700 text-sm space-y-1 font-medium leading-loose">
+              <a href="tel:+919710946813" className='hover:text-[#D46A37]'>+91 9710946813</a> <br/>
+              <a href="tel:+919710946816" className='hover:text-[#D46A37]'>+91 9710946816</a>
+            </div>
                 </div>
               </motion.div>
 

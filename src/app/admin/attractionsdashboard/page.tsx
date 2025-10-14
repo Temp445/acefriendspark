@@ -71,9 +71,9 @@ const AttractionsDashboard = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto pt-5">
         <div className="mb-12 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-          <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">Attractions Dashboard</h1>
+          <h1 className="text-2xl md:text-4xl text-gray-900 mb-2">Attractions Dashboard</h1>
           <button
             onClick={() => router.push('/admin/attractionsdashboard/add-attraction')}
             className="bg-[#D46A37] text-white px-6 py-3 rounded hover:bg-emerald-600 transition-all duration-300 shadow-lg hover:shadow-xl flex items-center gap-2 font-medium"
@@ -101,7 +101,7 @@ const AttractionsDashboard = () => {
             </div>
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6">
             {attractions.map((item) => (
               <div
                 key={item._id}

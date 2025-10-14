@@ -2,7 +2,7 @@ import ContactForm from "@/components/ContactPage/ContactForm";
 import ContactInfoSection from "@/components/ContactPage/ContactInfoSection";
 import ContactMap from "@/components/ContactPage/ContactMap";
 import Image from "next/image";
-import Bg from '@/assets/NearBy/img5.png'
+import Bg from '@/assets/Hotel/Bg.png'
 import type { Metadata } from 'next';
 
 const domainUrl = process.env.NEXT_PUBLIC_API_FRONTEND_URL;
@@ -47,12 +47,12 @@ const ContactPage = () => {
       </div>
     </div>
 
-      <div className="grid md:grid-cols-2 gap-8 px-4 container mx-auto max-w-7xl mt-10">
+      <div className="grid lg:grid-cols-2 gap-8 px-4 container mx-auto max-w-7xl mt-10">
         <div className="order-2">
           {" "}
           <ContactInfoSection />{" "}
         </div>
-        <div className="order-1 md:order-2">
+        <div className="order-1 lg:order-2">
           {" "}
           <ContactForm />{" "}
         </div>

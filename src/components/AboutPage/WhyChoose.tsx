@@ -39,7 +39,7 @@ const WhyChoose = () => {
             Why Choose
             <span className="block mt-2 text-[#D46A37]">Ace Friends Park</span>
           </h2>
-          <p className="text-gray-700 md:text-lg lg:text-xl mt-4 max-w-2xl mx-auto">
+          <p className="text-gray-700 md:text-lg mt-4 max-w-2xl mx-auto">
             Discover the reasons why guests love staying with us – comfort, luxury, and unforgettable memories await.
           </p>
         </div>
