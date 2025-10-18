@@ -94,7 +94,7 @@ const Navbar = () => {
           <Link href="/" className={`flex items-center gap-2 font-bold tracking-wide`}>
             <Image src={Logo} alt="Logo" className="w-8 h-auto" />
             <div className="leading-none">
-              <span className="block text-xl xl:text-2xl">Ace Friends Park</span>
+              <span className="block text-xl xl:text-2xl">ACE Friends Park</span>
             </div>
           </Link>
 

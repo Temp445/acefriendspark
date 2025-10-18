@@ -8,19 +8,19 @@ import type { Metadata } from 'next';
 const domainUrl = process.env.NEXT_PUBLIC_API_FRONTEND_URL;
 
 export const metadata: Metadata = {
-  title: 'Contact Ace Friends Park | Book Your Stay at Yelagiri’s Best Room',
-  description: 'Reach out to Ace Friends Park for bookings, inquiries, and stay details. Experience Yelagiri’s best rooms with comfort, scenic views, and warm hospitality for families and friends.',
+  title: 'Contact ACE Friends Park | Book Your Stay at Yelagiri’s Best Room',
+  description: 'Reach out to ACE Friends Park for bookings, inquiries, and stay details. Experience Yelagiri’s best rooms with comfort, scenic views, and warm hospitality for families and friends.',
   openGraph: {
-    title: 'Contact Ace Friends Park | Book Your Stay at Yelagiri’s Best Room',
-    description: 'Reach out to Ace Friends Park for bookings, inquiries, and stay details. Experience Yelagiri’s best rooms with comfort, scenic views, and warm hospitality for families and friends.',
+    title: 'Contact ACE Friends Park | Book Your Stay at Yelagiri’s Best Room',
+    description: 'Reach out to ACE Friends Park for bookings, inquiries, and stay details. Experience Yelagiri’s best rooms with comfort, scenic views, and warm hospitality for families and friends.',
     url: `${domainUrl}/contact`,
-    siteName: 'Ace Friends Park',
+    siteName: 'ACE Friends Park',
     images: [
       {
         url: `${domainUrl}/og-images/AceLogo.png`, 
         width: 1200,
         height: 630,
-        alt: 'Ace Friends Park',
+        alt: 'ACE Friends Park',
       },
     ],
     type: 'website',

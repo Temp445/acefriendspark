@@ -85,7 +85,7 @@ const AboutSection = () => {
                 Comfortable Stays
               </h3>
               <p className="text-gray-500 text-sm">
-                Experience true comfort and warmth — every room at Ace Friends
+                Experience true comfort and warmth — every room at ACE Friends
                 Park is designed to make you feel right at home.
               </p>
             </motion.div>
@@ -159,7 +159,7 @@ const AboutSection = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.1 }}
             >
-              Welcome to Ace Friends Park, Yelagiri's Best Resort
+              Welcome to ACE Friends Park, Yelagiri's Best Resort
             </motion.h2>
             <motion.p
               className="text-gray-600 mb-6 leading-relaxed"
@@ -170,7 +170,7 @@ const AboutSection = () => {
             >
               When you're on a vacation with your family or friends, your place
               of stay should feel like home. At{" "}
-              <strong>Ace Friends Park</strong>, we make that happen — blending
+              <strong>ACE Friends Park</strong>, we make that happen — blending
               peaceful surroundings with modern comfort to create the perfect
               retreat in the heart of Yelagiri.
             </motion.p>

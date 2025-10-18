@@ -32,9 +32,9 @@ const AboutStory = () => {
             <div className="space-y-6 text-gray-700 md:text-lg leading-relaxed">
               <p className="relative pl-6 border-l-4">
                 Welcome to{" "}
-                <strong className="text-gray-900">Ace Friends Park</strong> –
+                <strong className="text-gray-900">ACE Friends Park</strong> –
                 Yelagiri's premier resort for families and friends. When you're
-                on a vacation, your place of stay should feel like home. At Ace
+                on a vacation, your place of stay should feel like home. At ACE
                 Friends Park, we ensure your stay is peaceful, comfortable, and
                 filled with memorable moments.
               </p>
@@ -47,7 +47,7 @@ const AboutStory = () => {
                 rejuvenating, and truly worth your time and investment.
               </p>
               <p className="md:text-xl font-medium text-gray-900 italic">
-                A stay at Ace Friends Park promises a soothing experience. Our
+                A stay at ACE Friends Park promises a soothing experience. Our
                 goal is to create an exciting, unforgettable vacation for you,
                 your family, and your friends, making every visit a cherished
                 memory.

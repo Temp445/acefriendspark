@@ -28,6 +28,8 @@ const BookingForm = () => {
   const [phoneError, setPhoneError] = useState('');
   const [cottageError, setCottageError] = useState('');
   const [loading, setLoading] = useState(false);
+  const today = new Date().toISOString().split("T")[0];
+  const [checkIn, setCheckIn] = useState("");
 
   const validateCottageCapacity = (guests: number, cottages: number) => {
     const maxGuestsPerCottage = 8;
@@ -217,6 +219,9 @@ const BookingForm = () => {
               <input
                 type="date"
                 name="checkIn"
+                min={today} 
+                value={checkIn}
+                onChange={(e) => setCheckIn(e.target.value)}
                 required
                 className="mt-1 w-full border rounded-md px-3 py-2 focus:outline-none"
               />
@@ -226,6 +231,7 @@ const BookingForm = () => {
               <input
                 type="date"
                 name="checkOut"
+                min={checkIn || today}
                 required
                 className="mt-1 w-full border rounded-md px-3 py-2 focus:outline-none"
               />

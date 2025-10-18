@@ -7,19 +7,19 @@ import type { Metadata } from 'next';
 const domainUrl = process.env.NEXT_PUBLIC_API_FRONTEND_URL;
 
 export const metadata: Metadata = {
-  title: 'Nearby Attractions | Top Places to Visit in Yelagiri near Ace Friends Park',
-  description: 'Discover the best attractions near Ace Friends Park, Yelagiri. Explore scenic hills, nature parks, boating spots, temples, and adventure activities just minutes away from our resort.',
+  title: 'Nearby Attractions | Top Places to Visit in Yelagiri near ACE Friends Park',
+  description: 'Discover the best attractions near ACE Friends Park, Yelagiri. Explore scenic hills, nature parks, boating spots, temples, and adventure activities just minutes away from our resort.',
   openGraph: {
-    title: 'Nearby Attractions | Top Places to Visit in Yelagiri near Ace Friends Park',
-    description: 'Discover the best attractions near Ace Friends Park, Yelagiri. Explore scenic hills, nature parks, boating spots, temples, and adventure activities just minutes away from our resort.',
+    title: 'Nearby Attractions | Top Places to Visit in Yelagiri near ACE Friends Park',
+    description: 'Discover the best attractions near ACE Friends Park, Yelagiri. Explore scenic hills, nature parks, boating spots, temples, and adventure activities just minutes away from our resort.',
     url: `${domainUrl}/attractions`,
-    siteName: 'Ace Friends Park',
+    siteName: 'ACE Friends Park',
     images: [
       {
         url: `${domainUrl}/og-images/AceLogo.png`, 
         width: 1200,
         height: 630,
-        alt: 'Ace Friends Park',
+        alt: 'ACE Friends Park',
       },
     ],
     type: 'website',

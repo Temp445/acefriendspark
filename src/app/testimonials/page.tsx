@@ -7,19 +7,19 @@ import TestimonialsCTA from '@/components/TestimonialsPage/TestimonialsCTA';
 const domainUrl = process.env.NEXT_PUBLIC_API_FRONTEND_URL;
 
 export const metadata: Metadata = {
-  title: 'Guest Reviews & Testimonials | Ace Friends Park Yelagiri',
-  description: 'Read genuine guest reviews and testimonials of Ace Friends Park, Yelagiri. Discover why families and friends love our resort for comfort, hospitality, and memorable stays.',
+  title: 'Guest Reviews & Testimonials | ACE Friends Park Yelagiri',
+  description: 'Read genuine guest reviews and testimonials of ACE Friends Park, Yelagiri. Discover why families and friends love our resort for comfort, hospitality, and memorable stays.',
   openGraph: {
-    title: 'Guest Reviews & Testimonials | Ace Friends Park Yelagiri',
-    description: 'Read genuine guest reviews and testimonials of Ace Friends Park, Yelagiri. Discover why families and friends love our resort for comfort, hospitality, and memorable stays.',
+    title: 'Guest Reviews & Testimonials | ACE Friends Park Yelagiri',
+    description: 'Read genuine guest reviews and testimonials of ACE Friends Park, Yelagiri. Discover why families and friends love our resort for comfort, hospitality, and memorable stays.',
     url: `${domainUrl}/testimonials`,
-    siteName: 'Ace Friends Park',
+    siteName: 'ACE Friends Park',
     images: [
       {
         url: `${domainUrl}/og-images/AceLogo.png`, 
         width: 1200,
         height: 630,
-        alt: 'Ace Friends Park',
+        alt: 'ACE Friends Park',
       },
     ],
     type: 'website',

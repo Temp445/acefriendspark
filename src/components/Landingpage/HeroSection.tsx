@@ -139,7 +139,7 @@ const HeroSection = () => {
                 className="text-3xl md:text-5xl font-serif italic text-white/95 leading-[1.1] mb-10"
                 variants={itemVariants}
               >
-                at Ace Friends Park
+                at ACE Friends Park
               </motion.h2>
 
               <motion.div 

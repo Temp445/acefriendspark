@@ -78,7 +78,7 @@ const HeroSection = () => {
 
             <p className="flex text-gray-600 md:text-xl mb-8 max-w-xl mx-auto leading-relaxed items-start justify-start">
               Don't just take our word for it. See what our guests have to say
-              about their unforgettable experiences at Ace Friends Park.
+              about their unforgettable experiences at ACE Friends Park.
             </p>
 
             <div className="flex gap-4 md:gap-8 text-gray-600">

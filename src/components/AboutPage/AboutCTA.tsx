@@ -20,7 +20,7 @@ const AboutCTA = () => {
         </h2>
 
         <p className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto">
-          Escape to the hills of Yelagiri and create unforgettable memories with your loved ones at Ace Friends Park.
+          Escape to the hills of Yelagiri and create unforgettable memories with your loved ones at ACE Friends Park.
         </p>
 
         <Link href='/contact' className="group inline-flex items-center gap-2 px-8 py-4 bg-white text-orange-600 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105">

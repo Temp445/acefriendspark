@@ -55,7 +55,7 @@ const LocationSection = () => {
             viewport={{ once: true }}
           >
             <div className="mb-8">
-              <h3 className="text-3xl font-serif text-gray-900 mb-2">Ace Friends Park</h3>
+              <h3 className="text-3xl font-serif text-gray-900 mb-2">ACE Friends Park</h3>
               <div className="w-16 h-1 bg-[#D46A37] rounded-full" />
             </div>
 

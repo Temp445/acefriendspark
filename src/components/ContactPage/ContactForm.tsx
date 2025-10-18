@@ -28,6 +28,9 @@ const ContactForm = () => {
   const [phoneError, setPhoneError] = useState("");
   const [cottageError, setCottageError] = useState("");
   const [loading, setLoading] = useState(false);
+  const today = new Date().toISOString().split("T")[0];
+  const [checkIn, setCheckIn] = useState("");
+  
 
   const validateCottageCapacity = (guests: number, cottages: number) => {
     const maxGuestsPerCottage = 8;
@@ -213,6 +216,9 @@ const ContactForm = () => {
             <input
               type="date"
               name="checkIn"
+              min={today} 
+              value={checkIn}
+              onChange={(e) => setCheckIn(e.target.value)}
               required
               className="w-full px-4 py-2 border rounded-lg outline-none transition"
             />
@@ -222,6 +228,7 @@ const ContactForm = () => {
             <input
               type="date"
               name="checkOut"
+              min={checkIn || today}
               required
               className="w-full px-4 py-2 border rounded-lg outline-none transition"
             />

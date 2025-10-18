@@ -28,14 +28,14 @@ export default function Footer() {
                   />
                 </div>
                 <h3 className="text-2xl md:text-3xl text-white mt-1">
-                  Ace Friends Park <br />{" "}
+                  ACE Friends Park <br />{" "}
                   <div className="w-20 h-0.5 bg-[#D46A37] rounded-full"></div>
                 </h3>
               </div>
             </div>
             <p className="text-sm leading-relaxed text-gray-400 mb-6">
               Experience the perfect blend of comfort, elegance, and
-              personalized hospitality at Ace Friends Park — your ideal getaway
+              personalized hospitality at ACE Friends Park — your ideal getaway
               destination in the serene Yelagiri Hills.
             </p>
             <div className="flex gap-4">
@@ -86,7 +86,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/rooms"
+                  href="/roomdetails"
                   className="text-sm text-gray-400 hover:text-[#D46A37] transition-colors duration-200 flex items-center group"
                 >
                   <span className="w-0 group-hover:w-2 h-0.5 bg-[#D46A37] transition-all duration-200 mr-0 group-hover:mr-2"></span>
@@ -109,6 +109,24 @@ export default function Footer() {
                 >
                   <span className="w-0 group-hover:w-2 h-0.5 bg-[#D46A37] transition-all duration-200 mr-0 group-hover:mr-2"></span>
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/privacy-policy"
+                  className="text-sm text-gray-400 hover:text-[#D46A37] transition-colors duration-200 flex items-center group"
+                >
+                  <span className="w-0 group-hover:w-2 h-0.5 bg-[#D46A37] transition-all duration-200 mr-0 group-hover:mr-2"></span>
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/terms"
+                  className="text-sm text-gray-400 hover:text-[#D46A37] transition-colors duration-200 flex items-center group"
+                >
+                  <span className="w-0 group-hover:w-2 h-0.5 bg-[#D46A37] transition-all duration-200 mr-0 group-hover:mr-2"></span>
+                  Terms and Conditions 
                 </Link>
               </li>
             </ul>
@@ -201,7 +219,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-6 lg:px-12 py-6">
           <div className="flex flex-col md:flex-row justify-center items-center gap-4">
             <p className="text-sm text-gray-500">
-              © 2025 Ace Friends Park. All Rights Reserved.
+              © 2025 ACE Friends Park. All Rights Reserved.
             </p>
           </div>
         </div>
